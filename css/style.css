@@ -1,0 +1,205 @@
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../resources/constelacion.svg); }
+
+.navegacion {
+  width: 100%;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.6); }
+  .navegacion .name {
+    color: black;
+    font-size: 60px;
+    text-decoration: none;
+    margin-left: 70px;
+    font-weight: bold; }
+  .navegacion .lista a {
+    font-size: 19px;
+    font-weight: bold; }
+  .navegacion .lista a:hover {
+    color: gray; }
+
+.infoIndex {
+  width: 45%;
+  float: left;
+  margin-top: 80px;
+  margin-left: 80px; }
+  .infoIndex h1 {
+    font-size: 60px;
+    font-weight: 900; }
+  .infoIndex p {
+    font-style: italic;
+    font-size: 20px; }
+
+#uno {
+  margin-top: 80px;
+  margin-right: 50px;
+  float: right;
+  box-shadow: 0px 6px 43px -2px #777777;
+  z-index: 2; }
+
+#dos {
+  box-shadow: 0px 6px 43px -2px #777777;
+  margin-top: -320px;
+  margin-right: 100px;
+  float: right;
+  z-index: 1; }
+
+.wtsp {
+  background-color: green;
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 35px;
+  right: 30px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 20px -2px #777777;
+  z-index: 100; }
+
+.boton {
+  background-color: #5b68eb; }
+
+.boton:hover {
+  background-color: blueviolet; }
+
+.titulo {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold; }
+
+.cardContent {
+  margin: auto; }
+  .cardContent .cardTitle {
+    text-align: center;
+    font-weight: bold; }
+  .cardContent img {
+    height: 220px;
+    width: 100%; }
+  .cardContent .card {
+    height: 350px;
+    margin-top: 30px; }
+  .cardContent .card:hover {
+    overflow: hidden;
+    box-shadow: 0px 0px 40px 1px #5b68eb;
+    transition: all .4s; }
+
+.boton2 {
+  background-color: #5b68eb;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  bottom: 35px;
+  width: 350px; }
+
+.boton2:hover {
+  background-color: blueviolet; }
+
+.noticias {
+  margin-top: 10px; }
+  .noticias h1 {
+    margin-top: 10px;
+    text-align: center; }
+  .noticias .articulos {
+    margin-top: 50px; }
+  .noticias .bloqueNoticia {
+    background-color: none; }
+    .noticias .bloqueNoticia .titulos {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold; }
+    .noticias .bloqueNoticia .parrafos {
+      font-size: 15px;
+      font-style: italic; }
+  .noticias .cardSide {
+    box-shadow: 0px 10px 10px 0px #5b68eb; }
+
+.tituloContacto {
+  margin-top: 10px;
+  text-align: center; }
+
+.formulario {
+  box-shadow: 0px 0px 40px 1px #5b68eb; }
+
+.notFound {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+  .notFound h1 {
+    font-size: 100px;
+    font-weight: 900; }
+  .notFound p {
+    font-style: italic;
+    font-size: 20px; }
+  .notFound #mono {
+    margin-top: 30px;
+    height: 300px;
+    box-shadow: 0px 0px 40px 1px #5b68eb; }
+  .notFound .botonError {
+    text-align: center; }
+
+.foot {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.6); }
+  .foot .foot__text {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none; }
+
+@media only screen and (max-width: 767px) {
+  .navegacion .name {
+    font-size: 50px; }
+  .infoIndex {
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px; }
+    .infoIndex h1 {
+      font-size: 35px; }
+    .infoIndex p {
+      font-size: 14px; }
+  #uno {
+    height: 250px;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: auto;
+    justify-content: center;
+    float: none; }
+  #dos {
+    display: none; }
+  .wtsp {
+    bottom: 30px; }
+  .tarjetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .notFound #mono {
+    height: 200px; }
+  .notFound {
+    margin-left: 10px; }
+    .notFound .notFound h1 {
+      font-size: 80px; }
+  .footServicios {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: static; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .name {
+    font-size: 300px;
+    color: brown; } }
