@@ -1,7 +1,7 @@
 {
   "name": "helloit",
-  "version": "1.0.0",
-  "description": "Entrega proyecto final",
+  "version": "2.0.0",
+  "description": "Entrega proyecto final JavaScript",
   "main": "index.js",
   "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",

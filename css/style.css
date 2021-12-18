@@ -146,6 +146,21 @@ body {
   .notFound .botonError {
     text-align: center; }
 
+.comprar {
+  background-color: #5b68eb; }
+
+.comprar:hover {
+  background-color: blueviolet; }
+
+#emptyCart {
+  background-color: #5b68eb;
+  border: none; }
+
+.btnPlus {
+  background-color: #5b68eb;
+  color: white;
+  border: none; }
+
 .foot {
   background-color: white;
   text-align: center;

@@ -1,0 +1,38 @@
+[
+{
+    "precio": 1599,
+    "id": 1,
+    "title": "Razer Kraken",
+    "thumbnailUrl": "../resources/razer.png"
+},
+{
+    "precio": 3699,
+    "id": 2,
+    "title": "Tablet Lenovo M8",
+    "thumbnailUrl": "../resources/tabm8.png"
+},
+{
+    "precio": 2099,
+    "id": 3,
+    "title": "Bocinas LogiTech",
+    "thumbnailUrl": "../resources/bocinas.png"
+},
+{
+    "precio": 5499,
+    "id": 4,
+    "title": "Monitor Samsung",
+"thumbnailUrl": "../resources/ledmonitor.png"
+},
+{
+    "precio": 1099,
+    "id": 5,
+    "title": "AP Tp-Link",
+    "thumbnailUrl": "../resources/tplink.png"
+},
+{
+    "precio": 1799,
+    "id": 6,
+    "title": "Disco externo 2TB",
+    "thumbnailUrl": "../resources/adata.png"
+}
+]

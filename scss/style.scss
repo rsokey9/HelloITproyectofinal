@@ -5,7 +5,6 @@ html {
 body{
     background-image: url(../resources/constelacion.svg);
 }
-// Variables
 
 
 .navegacion{ 
@@ -97,6 +96,8 @@ body{
         transition: all .4s;
     }
 }
+
+
 .boton2{
     background-color: #5b68eb;
     margin-left: auto;
@@ -168,6 +169,22 @@ body{
     .botonError{
         text-align: center;
     }
+}
+
+.comprar{
+    background-color: #5b68eb;
+}
+.comprar:hover{
+    background-color: blueviolet;
+}
+#emptyCart{
+    background-color: #5b68eb;
+    border: none;
+}
+.btnPlus{
+    background-color: #5b68eb;
+    color: white;
+    border: none;
 }
 
 .foot{
