@@ -3,7 +3,7 @@
     "precio": 1599,
     "id": 1,
     "title": "Razer Kraken",
-    "thumbnailUrl": "./resources/razer.png"
+    "thumbnailUrl": "../resources/razer.png"
 },
 {
     "precio": 3699,
